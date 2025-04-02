@@ -5,6 +5,8 @@
 
 <br/>
 
+Comments allow you to add notes to your code, without effecting the code itself.
+
 ```sh
 // This is a single line comment
  ```
@@ -17,6 +19,32 @@ This is a multi line comment
 <br/>
 
 </details>
+
+
+<details>
+<summary>Print</summary>
+
+<br/>
+
+Printing allows you to print messages to a console. Developers can use it for debugging.
+
+```sh
+console.log("cat");
+ ```
+```sh
+console.log(45);
+ ```
+```sh
+console.log(5 + 5); // Prints "10" to the console
+ ```
+```sh
+console.log("5 + 5"); // Prints "5 + 5" to the console
+ ```
+
+<br/>
+
+</details>
+
 
 <details>
 <summary>Variables</summary>
