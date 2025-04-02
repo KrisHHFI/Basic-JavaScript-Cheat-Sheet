@@ -12,7 +12,10 @@
 /*
 This is a multi line comment
 */
- ``` 
+ ```
+
+<br/>
+
 </details>
 
 <details>
@@ -30,6 +33,8 @@ const cat = "Steve";
 const age = 22;
 const cost = 22.75;
  ```
+
+<br/>
 
 let variable examples
 ```sh
