@@ -1,5 +1,7 @@
 # JavaScript Cheat Sheet 2025
 
+## Syntax
+
 <details>
 <summary>Comments</summary>
 
