@@ -24,6 +24,37 @@ This is a multi line comment
 
 
 <details>
+<summary>Data Structures</summary>
+
+<br/>
+
+Variables store single values, but data structures store multiple values and enables the organisation of these values.
+
+Array
+```sh
+let cats = ["Gary", "Frank", "Shona", "Steve", "Wendy"];
+ ```
+
+Object
+```sh
+let cat = { name: "Gary", age: 12 };
+ ```
+
+Object Array
+```sh
+let cats = [
+    { id: 1, name: "Gary", age: 12 },
+    { id: 2, name: "Frank", age: 18 },
+];
+```
+
+
+<br/>
+
+</details>
+
+
+<details>
 <summary>Loops</summary>
 
 <br/>
@@ -78,6 +109,16 @@ console.log(5 + 5); // Prints "10" to the console
 ```sh
 console.log("5 + 5"); // Prints "5 + 5" to the console
  ```
+console.table can be used to print in a table format
+```sh
+let cats = [
+    { id: 1, name: "Gary", age: 12 },
+    { id: 2, name: "Frank", age: 18 },
+];
+
+console.table(cats);
+```
+
 
 <br/>
 
