@@ -54,6 +54,17 @@ let cats = [
 
 <br/>
 
+Map
+```sh
+const cats = new Map([
+    ["Gary", 12],
+    ["Frank", 18],
+]);
+```
+
+
+<br/>
+
 </details>
 
 
