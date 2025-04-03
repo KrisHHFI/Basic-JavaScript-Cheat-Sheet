@@ -260,6 +260,19 @@ mainFunction();
 
 <br/>
 
+```sh
+function functionA(x, y) {
+    return x * y;
+}
+
+let coordinates = functionA(2, 5);
+
+console.log(coordinates); // Prints: 10
+```
+
+
+<br/>
+
 </details>
 
 
