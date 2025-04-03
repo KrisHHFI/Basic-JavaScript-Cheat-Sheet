@@ -35,10 +35,14 @@ Array
 let cats = ["Gary", "Frank", "Shona", "Steve", "Wendy"];
  ```
 
+<br/>
+
 Object
 ```sh
 let cat = { name: "Gary", age: 12 };
  ```
+
+<br/>
 
 Object Array
 ```sh
@@ -47,7 +51,6 @@ let cats = [
     { id: 2, name: "Frank", age: 18 },
 ];
 ```
-
 
 <br/>
 
@@ -109,6 +112,9 @@ console.log(5 + 5); // Prints "10" to the console
 ```sh
 console.log("5 + 5"); // Prints "5 + 5" to the console
  ```
+
+<br/>
+
 console.table can be used to print in a table format
 ```sh
 let cats = [
@@ -117,6 +123,18 @@ let cats = [
 ];
 
 console.table(cats);
+```
+
+<br/>
+
+A console.log combined with JSON.stringify will print the items in JSON format
+```sh
+let cats = [
+    { id: 1, name: "Gary", age: 12 },
+    { id: 2, name: "Frank", age: 18 },
+];
+
+console.log(JSON.stringify(cats, null, 2));
 ```
 
 
