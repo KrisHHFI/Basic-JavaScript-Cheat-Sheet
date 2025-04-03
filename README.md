@@ -213,6 +213,58 @@ const cats = new Map([
 
 
 <details>
+<summary>Functions</summary>
+
+<br/>
+
+JavaScript code is built around functions. Functions can be used to the organise code, silo functionality making the code easer to read and debug, and return values/functionality.
+
+```sh
+function functionA() {
+    console.log("Function A executed");
+}
+
+functionA(); // Call the function
+```
+```sh
+function functionA() {
+    console.log("Function A executed");
+}
+
+function functionB() {
+    console.log("Function B executed"); // Not printed because the function is never called
+}
+
+functionA(); // Call the function
+```
+<br/>
+
+In the example below, one function is called which then triggers two other functions.
+
+```sh
+function functionA() {
+    console.log("Function A executed");
+}
+
+function functionB() {
+    console.log("Function B executed");
+}
+
+function mainFunction() {
+    functionA();
+    functionB();
+}
+
+mainFunction();
+```
+
+<br/>
+
+</details>
+
+
+
+<details>
 <summary>Loops</summary>
 
 <br/>
