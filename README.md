@@ -1,4 +1,4 @@
-# JavaScript Cheat Sheet 2025
+# Basic JavaScript Cheat Sheet 2025
 
 ## Syntax
 
