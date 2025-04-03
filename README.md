@@ -69,6 +69,54 @@ This is a multi line comment
 
 
 <details>
+<summary>Conditional Statements</summary>
+
+<br/>
+
+Conditional statements allow you to execute code according to defined conditions. The conditions are executed as either or.
+
+<br/>
+
+Examples of basic if statements
+```sh
+if (1 == 1) {
+    console.log("If condition was true"); // Will be printed
+}
+if (1) {
+    console.log("If condition was true"); // Will be printed
+}
+if (1 < 2 ) {
+    console.log("If condition was true");  // Will be printed
+}
+ ```
+
+<br/>
+
+Examples of basic if and else if statements
+```sh
+if (1 < 2 ) {
+    console.log("If condition was true"); // Will be printed
+} else if ( 1 < 3) {
+    console.log("Else if condition was true"); // Wont be printed
+}
+ ```
+```sh
+if (1 == 2 ) {
+    console.log("If condition was true"); // Wont be printed
+} else if ( 1 < 3) {
+    console.log("Else if condition was true"); // Will be printed
+}
+ ```
+
+
+
+
+<br/>
+
+</details>
+
+
+<details>
 <summary>Data Structures</summary>
 
 <br/>
