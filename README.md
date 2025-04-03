@@ -108,6 +108,42 @@ if (1 == 2 ) {
 }
  ```
 
+<br/>
+
+Examples of basic if, else if and else statements
+```sh
+if (1 > 2 ) {
+    console.log("If condition was true"); // Wont be printed
+} else if ( 1 > 3) {
+    console.log("1st else if condition was true"); // Wont be printed
+} else if ( 1 > 4) {
+    console.log("2nd else if condition was true"); // Wont be printed
+} else {
+    console.log("Else condition was true"); // Will be printed
+}
+ ```
+```sh
+if (1 > 2 ) {
+    console.log("If condition was true"); // Wont be printed
+} else if ( 1 > 3) {
+    console.log("1st else if condition was true"); // Wont be printed
+} else if ( 1 == 1) {
+    console.log("2nd else if condition was true"); // Will be printed
+} else {
+    console.log("Else condition was true"); // Wont be printed
+}
+ ```
+```sh
+if (1 == 1 ) {
+    console.log("If condition was true"); // Will be printed
+} else if ( 1 > 3) {
+    console.log("1st else if condition was true"); // Wont be printed
+} else if ( 1 > 4) {
+    console.log("2nd else if condition was true"); // Wont be printed
+} else {
+    console.log("Else condition was true"); // Wont be printed
+}
+```
 
 
 
