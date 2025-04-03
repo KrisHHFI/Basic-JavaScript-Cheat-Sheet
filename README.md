@@ -34,6 +34,13 @@ age--;
 console.log(age); // Prints 19
 ```
 
+<br/>
+
+Parentheses
+```sh
+console.log(5 + (2 * 2)); // Prints 9
+```
+
 
 <br/>
 
