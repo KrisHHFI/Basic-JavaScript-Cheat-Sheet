@@ -2,6 +2,44 @@
 
 ## Syntax
 
+
+<details>
+<summary>Arithmetic</summary>
+
+<br/>
+
+```sh
+console.log(1 + 1); // One plus one, prints: 2
+console.log(5 * 5); // 5 multiplied by 5, prints 25
+console.log(10 / 2); // 10 divided by 2, prints 5
+```
+
+<br/>
+
+Increment
+```sh
+let age = 20;
+age++;
+
+console.log(age); // Prints 21
+```
+
+<br/>
+
+Decrement
+```sh
+let age = 20;
+age--;
+
+console.log(age); // Prints 19
+```
+
+
+<br/>
+
+</details>
+
+
 <details>
 <summary>Comments</summary>
 
