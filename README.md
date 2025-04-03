@@ -145,7 +145,22 @@ if (1 == 1 ) {
 }
 ```
 
+<br/>
 
+Conditional statements can be nested inside one another
+
+```sh
+if (1 == 1) {
+    console.log("If condition was true"); // Will be printed
+    if (1 > 2) {
+        console.log("1st nested if condition was true");
+    } else if (1 < 2) {
+        console.log("2nd nested if condition was true"); // Will be printed
+    }
+} else {
+    console.log("Else condition was true");
+}
+```
 
 <br/>
 
