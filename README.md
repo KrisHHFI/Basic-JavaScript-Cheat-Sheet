@@ -213,6 +213,7 @@ const variable examples
 const cat = "Steve";
 const age = 22;
 const cost = 22.75;
+const storeOpen = false;
  ```
 
 <br/>
@@ -222,6 +223,7 @@ let variable examples
 let cat = "Steve";
 let age = 22;
 let cost = 22.75;
+let storeOpen = false;
  ```
 
 </details>
