@@ -1,7 +1,14 @@
 # Basic JavaScript Cheat Sheet 2025
 
-## Syntax
+## Get started
 
+Create a file with the extension .js at the end, you now have a JS file. You can copy some of the code seen in the examples below and paste them into your file. Below are some ways how you can easily execute JS code.
+
+- If you have an IDE you can simply press the play/debug button.
+- If you have Node installed you can go to the file location and run node yourFileName.js.
+- In a web browser like Chrome, you can go to the console, paste some code and then press return. 
+
+## Syntax
 
 <details>
 <summary>Arithmetic</summary>
